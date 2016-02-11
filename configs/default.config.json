@@ -1,0 +1,8 @@
+{
+    "refreshDelay": 5000,
+    "url": "jenkins.mydomain.com",
+    "username": "username",
+    "password": "password",
+    "jobs": ["job1","job2"],
+    "views": ["view1","view2"]
+}

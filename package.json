@@ -1,0 +1,24 @@
+{
+  "name": "ci-beacon-light",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardlt/ci-beacon-light.git"
+  },
+  "author": "richard.le.terrier@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/richardlt/ci-beacon-light/issues"
+  },
+  "homepage": "https://github.com/richardlt/ci-beacon-light#readme",
+  "dependencies": {
+    "jenkins-status-shaker": "^1.1.1",
+    "optimist": "^0.6.1"
+  }
+}
