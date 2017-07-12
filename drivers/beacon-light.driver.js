@@ -24,6 +24,11 @@ module.exports = {
 
     stopAnimation: function () {
         _driver.setBlink(false);
+        // Set the color based on current status to avoid light shutdown when stop blinking
+        var color = this.statusToColor(_status);
+        if (color) {
+            _driver.setColor(color);
+        }
         return this;
     },
 
