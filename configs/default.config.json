@@ -3,6 +3,12 @@
     "url": "jenkins.mydomain.com",
     "username": "username",
     "password": "password",
-    "jobs": ["job1","job2"],
-    "views": ["view1","view2"]
+    "jobs": [
+        "job1",
+        "job2"
+    ],
+    "views": [
+        "view1",
+        "view2"
+    ]
 }

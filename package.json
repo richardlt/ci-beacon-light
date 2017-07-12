@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/richardlt/ci-beacon-light#readme",
   "dependencies": {
+    "ci-trafficlight-driver": "^1.0.1",
     "jenkins-status-shaker": "^1.1.1",
     "optimist": "^0.6.1"
   }

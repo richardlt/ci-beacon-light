@@ -12,7 +12,7 @@ var lastStatus = {
     working: false
 };
 
-shaker.onStatusReceived(function(status) {
+shaker.onStatusReceived(function (status) {
     BeaconLightDriver.setStatus(status.status);
     if (status.working && !lastStatus.working) {
         BeaconLightDriver.startAnimation();
@@ -22,9 +22,8 @@ shaker.onStatusReceived(function(status) {
     lastStatus = status;
 });
 
-BeaconLightDriver.onReady(function() {
-    setInterval(function() {
-        console.log('test');
+BeaconLightDriver.onReady(function () {
+    setInterval(function () {
         shaker.getStatus();
     }, Config.refreshDelay);
 }).init();
